@@ -1,9 +1,4 @@
 ﻿using AppSolutionData.Enum;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AppSolutionData.Entities
 {
@@ -16,7 +11,7 @@ namespace AppSolutionData.Entities
 		public decimal Fee { get; set; }
 		public string? Result {  get; set; }
 		public string? Massege { get; set; }
-		public Status Status { get; set; }
+		public TransactionStatus Status { get; set; }
 		public string? Providers { get; set; }
 
 	}
