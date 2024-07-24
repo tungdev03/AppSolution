@@ -3,3 +3,8 @@
 ## How to configure and run
 - ASP.Net Core 8.0
 - Entity Framework core 8.0
+## Install Packet 
+- Tool
+- Design
+- SQLServer
+- Core
