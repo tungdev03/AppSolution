@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AppSolutionData.Entities
+namespace AppSolutionData.Enum
 {
-	public class Configuration
+	public enum TransactionStatus
 	{
-		public int Key { get; set; }
-		public string Value { get; set; }
+		InActive,
+		Active
 	}
 }

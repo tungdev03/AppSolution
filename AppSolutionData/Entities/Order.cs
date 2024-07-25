@@ -17,7 +17,8 @@ namespace AppSolutionData.Entities
 		public string? ShipAddress { get; set; }
 		public string? ShipEmail { get; set; }
 		public string? ShipPhoneNumber { get; set; }
-		public Status Status { get; set; }
+		public OrderStatus Status { get; set; }
 
+		public List<OrderDetail> OrderDetails { get; set; }
 	}
 }
